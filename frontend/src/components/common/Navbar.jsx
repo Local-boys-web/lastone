@@ -41,7 +41,7 @@ const Navbar = ({ alwaysMobile = false, onSidebarToggle, showSidebarToggle = fal
       <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''} ${alwaysMobile ? 'navbar-always-mobile' : ''}`}>
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <span className="logo-text">Job<span className="logo-highlight">Portal</span></span>
+            <span className="logo-text">Job<span className="logo-highlight">Huntting</span></span>
           </Link>
 
           {/* Hamburger Menu - Only show for non-authenticated users */}
