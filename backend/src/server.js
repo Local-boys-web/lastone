@@ -15,7 +15,7 @@ connectDatabase();
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://lastone-backend.onrender.com',
+  origin: process.env.FRONTEND_URL || 'https://lastone-frontend.onrender.com',
   credentials: true
 }));
 app.use(express.json());
