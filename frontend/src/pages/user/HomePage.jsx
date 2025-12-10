@@ -92,8 +92,8 @@ const HomePage = () => {
       <div className={`homepage ${isAuthenticated && userType === 'user' && isSidebarOpen ? 'with-sidebar' : ''}`}>
         <section className="hero-section">
           <div className="hero-content">
-            <h1>Find Your Dream Job</h1>
-            <p>Thousands of jobs available across India</p>
+            <h1>Hunt your perfect job</h1>
+            <p>Your career starts with the right hunt.</p>
           </div>
         </section>
 
